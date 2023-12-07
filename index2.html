@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head> 
+        <meta charset = "utf-8">
+        <title> ЗАДАНИЕ 1 </title> 
+        <link rel = "stylesheet" href = "style/view2.css">
+    </head>
+    <body>
+        <header>
+            <div id = "uuu">
+                <nav>
+                    <a href = "menu.html">Ссылка меню 1</a>
+                    <a href = "menu2.html">Ссылка меню 2</a>
+                    <a href = "menu3.html">Ссылка меню 3</a>
+                </nav>
+                <img src = "images/Логотип успешного человека.png" alt = "Логотип" height = "100" widht = "100" id = "logo">
+                <br><br><br><br>
+                <div id = "main-name">
+                    iiiiiiiiiiiiiiiiiillliiiiiiiiiiiiiiiiii.github.io/s0177134.github.io
+                </div> 
+            </div>
+        </header>
+        <h2> Список гиперссылок </h2>
+        <div class = "ol"><ol>
+            <li><a href = "http://www.kubsu.ru/" id = "target">КубГу</a></li>
+            <li><a href = "https://www.kubsu.ru/">КубГу</a></li>
+            <li><a href = "http://www.kubsu.ru/"><img src = "images/kubgu.png" widht = "256px" height = "96px" alt = ""></a></li>
+            <li><a href = "second.html">Внутренняя страница</a></li>
+            <li><a href = "index2.html">Главная</a></li>
+            <li><a href = "#target">Первый элемент</a></li>
+            <li><a href = "https://www.kubsu.ru/ru/node/">Ссылка с тремя параметрами</a></li>
+            <li><a href = "https://github.com/iiiiiiiiiiiiiiiiiillliiiiiiiiiiiiiiiiii/s0177134.github.io/#target">Ссылка с параметром id в URL</a></li>
+            <li><a href = "second.html">Относительная на страницу</a></li>
+            <li><a href = "about/about_1.html">Относительная на страницу в каталоге about</a></li>
+            <li><a href = "inside_catalog/inside_page.html"> Относительная на страницу в каталоге уровнем выше текущего </a></li>
+            <li><a href = "inside_catalog/inside_inside_catalog/inside_inside_page.html"> Относительная на страницу в каталоге двумя уровнями выше </a></li>
+            <li><div><a href = "">  Куба́нский госуда́рственный университе́т </a> — высшее учебное заведение в Краснодаре. Является одним из крупнейших и старейших университетов юга России.</div></li>
+            <li><a href = "https://www.kubsu.ru/ru/science#block-block-99"> Ссылка на фрагмент страницы стороннего сайта </a></li>
+            <li><img src = "images/7bb43be4337b6ea5115e5697a1133955.png" usemap = "#pic">
+                
+                <map name = "pic">
+                    <area shape = "rect" coords = "18, 12, 138, 124" href = "https://ru.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82">
+                    <area shape = "circle" coords = "85, 240, 70" href = "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D0%B3">
+                </map></li>
+            <li><a href = ""> Ссылка с пустым href </a></li>
+            <li><a> Ссылка без href </a></li>
+            <li><a href = "https://pikabu.ru/story/yandex_bessmyislennaya_pomoyka_7894453?ysclid=lpp51zfv7u275584870" rel = "nofollow">  Ссылка, по которой запрещен переход поисковикам </a></li>
+            <li><a href = "http://www.kubsu.ru/" rel = "noindex"> Запрещенная для индексации поисковиками </a></li>
+            <li><ol>
+                <li><a href="https://www.youtube.com/" title="youtube">youtube</a></li>
+                <li><a href="https://www.kubsu.ru"title="kubsu">КубГу</a></li>
+                <li><a href="https://www.google.com/"title="google">Google</a></li>
+            </ol></li>
+            <li><a href = "ftp //login:pass@server.ru"> Ссылка на файл на сервере FTP </a></li>
+        </ol></div><br><br>
+
+        <div id = "ttt"><table border = "1" width = "500px" height = "350px">
+            <thead>
+                <tr class = "nechet">
+                    <th> Столбец 1</th>
+                    <th> Столбец 2</th>
+                    <th> Столбец 3</th>
+                    <th> Столбец 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class = "chet">
+                    <td colspan = "2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class = "nechet">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class = "chet">
+                    <td></td>
+                    <td colspan = "3"></td>
+                </tr>
+                <tr class = "nechet">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class = "chet">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table></div><br>
+
+        <form action = "" method = "post">
+            <label>ФИО </label>
+            <input type = "text" required><br><br>
+            <label>Телефон </label>
+            <input type = "tel" required><br><br>
+            <label>E-mail </label>
+            <input type = "email" required><br><br>
+            <label>Дата рождения </label>
+            <input type = "date" required><br><br>
+            <p>Пол:</p>
+            <label>Мужской </label>
+            <input type = "radio" name = "s" required><br>
+            <label>Женский </label>
+            <input type = "radio" name = "s"><br>
+            <label>Другой </label>
+            <input type = "radio" name = "s"><br><br>
+            <label>Любимый язык </label>
+            <select multiple>
+                <option disabled selected></option>
+                <option>Pascal</option>
+                <option>C</option>
+                <option>C++</option>
+                <option>JavaScript</option>
+                <option>PHP</option>
+                <option>Python</option>
+                <option>Java</option>
+                <option>Haskel</option>
+                <option>Clojure</option>
+                <option>Prolog</option>
+                <option>Scala</option>
+            </select><br><br>
+            <label>Биография</label>
+            <textarea></textarea><br><br>
+            <label>С контрактом ознакомлен </label>
+            <input type = "checkbox" required><br><br>
+            <input type = "submit" value = "Отправить">
+        </form><br>
+
+        <footer> <p>(c) Ломакин Артём </p></footer>
+    </body>
+</html>
