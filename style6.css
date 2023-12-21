@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(rgb())
+}
+.head{
+    background-image: url(https://cs12.pikabu.ru/post_img/big/2020/08/04/6/1596532293122931125.jpg);
+    height: 200px
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 100px;
+    color: aliceblue;
+}
+nav h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.var{
+    display: flex;
+    justify-content: end;
+}
+span{
+    color: white;
+}
