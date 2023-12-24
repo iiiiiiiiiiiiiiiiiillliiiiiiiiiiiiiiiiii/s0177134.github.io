@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style8.css">
+    <title>Document</title>
+</head>
+<body>
+    <button href="#" class="open-popup">Открыть попап</button>
+    <div class="popup__bg"> 
+        <form class="popup" method="post" action="https://api.slapform.com/nLYDysLXz">
+            <img src="https://ikonki.svgpng.ru/wp-content/uploads/2021/12/Krestiksvgpng.ru_.png" class="close-popup">
+            <label>
+                <input type="text" name="name">
+                <div class="label__text">
+                    Ваше имя
+                </div>
+            </label>
+            <label>
+                <input type="tel" name="tel">
+                <div class="label__text">
+                    Ваш телефон
+                </div>
+            </label>
+            <label>
+                <textarea name="message"></textarea>
+                <div class="label__text">
+                    Ваше сообщение
+                </div>
+            </label>
+            <label>
+                <input type="email" name="email">
+                <div class="label__text">
+                    Ваша поча
+                </div>
+            </label>
+            <label>
+                <input type="text" name="organization">
+                <div class="label__text">
+                    Ваша организация
+                </div>
+            </label>
+            <label>
+                <input type="checkbox" required
+                name="check-1" /> 
+                <div class="label__text">
+                    Ознакомлен
+                </div>
+                </label>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>  
+    <script src="script8.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slapform@latest/dist/index.min.js"></script>
+<script type="text/javascript">
+var slapform = new Slapform();
+slapform.submit({
+form: 'nLYDysLXz',
+// data: {
+// name: 'Jon Snow',
+// message: 'Hello World!',
+// }
+})
+.then(function (response) {
+console.log('Success', response)
+})
+.catch(function (e) {
+console.error('Fail', e)
+})
+</script>
+</body>
+</html>
