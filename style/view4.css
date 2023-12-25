@@ -1,0 +1,134 @@
+@media (max-width: 1000px){
+    .all{
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .na{
+       
+    }
+
+        .n1{
+
+        }
+
+        .n2{
+            
+        }
+
+        .n3{
+            
+        }
+    
+    .navigation{
+       
+    }
+
+    .head{
+        flex-direction: column;
+    }
+        
+
+    .logo{
+        align-self:flex-start;
+        display: flex;
+    }
+
+    .main-name{
+        display: flex;
+    }
+
+    .hrefi{
+        width: 100%;
+        display: flex;
+    }
+
+    .tab{
+        width: 100%;
+        display: flex;
+    }
+
+    .forma{
+        width: 100%;
+        display: flex;
+    }
+
+
+    .chet{
+        background-color:rgba(164, 20, 183, 0.979);
+    }
+    
+    .nechet{
+        background-color:rgb(0, 179, 255);
+    }
+    
+    footer{
+        background-color:rgba(156, 218, 218, 0.347);
+        width: 100%;
+    }
+    
+    header{
+        background-color:rgba(156, 218, 218, 0.347);
+        width: 100%;
+    }
+    
+    
+    
+    #uuu{
+        height: 120px;
+    }
+    body{
+        widht: 100vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1001px){
+h2, .ob1, #ttt, form{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+}
+
+.chet{
+    background-color:rgba(164, 20, 183, 0.979);
+}
+
+.nechet{
+    background-color:rgb(0, 179, 255);
+}
+
+footer{
+    background-color:rgba(156, 218, 218, 0.347);
+    width: 100%;
+}
+
+header{
+    background-color:rgba(156, 218, 218, 0.347);
+    width: 100%;
+}
+
+
+
+
+
+
+
+#uuu{
+    height: 120px;
+}
+
+.head{
+    flex-direction: row;
+    justify-content: space-between;
+}
+}
