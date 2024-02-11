@@ -18,7 +18,7 @@ window.onload = function (event) {
         let slapform = new Slapform();
         let infor = document.getElementById("infor");
         slapform.submit({
-            form: '	nEFGZOL220',
+            form: '	IETKJysxl',
             data: {
                 fio: document.getElementById("fio").value,
                 email: document.getElementById("email").value,
